@@ -1,12 +1,12 @@
 import React from 'react'
 import { Headers } from './'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-      <>
-        <Headers />
-        {children}
-      </>
+    <>
+      <Headers />
+      {children}
+    </>
   )
 }
 
